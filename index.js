@@ -99,7 +99,7 @@ const {
     ttp,
     map,
     waifu
-} = require('./lib')
+} = require("./lib")
 
 const { animPict, cewePict, cowoPict } = require('./lib/pict')
 
