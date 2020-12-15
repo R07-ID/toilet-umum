@@ -21,7 +21,7 @@ const config = {
     ROOTBOT: '👑ROOTBOT👑',
     instagram: 'https://instagram.com/creator_official03',
     nomer: 'wa.me/6282328023356',
-    aktif: '24 JAM JIKA JARINGAN BAGUS:V',
+    aktif: '24 JAM JIKA JARINGAN LOE BAGUS:V',
     youtube: 'https://youtube.com/channel/UCGYLWtyT9IADYNUiK0uZiGg',
     whatsapp: 'https://chat.whatsapp.com/DSSHmG2KjKJLoFp9B9mkVs',
     tanggal: `TANGGAL: ${moment().format('DD')} ${bulan} ${moment().format('YYYY')}`,
