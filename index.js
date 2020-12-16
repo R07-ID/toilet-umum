@@ -44,63 +44,61 @@ const
    waChatKey,
 } = require("@adiwajshing/baileys")
 
-const {
-    help,
-    menu1,
-    menu2,
-    menu3,
-    info,
-    donate,
-    alay,
-    artinama,
-    corona,
-    kbbi,
-    downloadImage,
-    igStalk,
-    jodoh,
-    jsholat,
-    lirik,
-    nulis,
-    readTextInImage,
-    pantun,
-    quotes,
-    searchYoutube,
-    surah,
-    tiktokdl,
-    tweetdl,
-    wiki,
-    ytdl,
-    bucin,
-    cersex,
-    cerpen,
-    puisi1,
-    puisi2,
-    resep,
-    namaninja,
-    bitly,
-    nekonime,
-    cektanggal,
-    chord,
-    zodiak,
-    fb,
-    simi,
-    wikien,
-    spamsms,
-    spamcall,
-    spamgmail,
-    covidcountry,
-    infoanime,
-    gay,
-    ytmp3,
-    ssweb,
-    infogempa,
-    indohot,
-    loli,
-    ttp,
-    map,
-    waifu
-} = require("./lib")
-
+const lib = require('./lib') 
+    const help = require('./lib/help')
+    const menu1 = require('./lib/menu1')
+    const menu2 = require('./lib/menu2')
+    const menu3 = require('./lib/menu3')
+    const info = require('./lib/info')
+    const donate = require('./lib/donate')
+    const alay = require('./lib/alay')
+    const artinama = require('./lib/artinama')
+    const corona = require('./lib/corona')
+    const kbbi = require('./lib/kbbi')
+    const downloadImage = require('./lib/downloadImage')
+    const igStalk = require('./lib/igStalk')
+    const jodoh = require('./lib/jodoh')
+    const jsholat = require('./lib/jsholat')
+    const lirik = require('./lib/lirik')
+    const nulis = require('./lib/nulis')
+    const radTextInImage = require('./lib/readTextInImage')
+    const pantun = require('./lib/pantun')
+    const quotes = require('./lib/quotes')
+    const searchYoutube = require('./lib/searchYoutube')
+    const surah = require('./lib/surah')
+    const tiktokdl = require('./lib/tiktokdl')
+    const tweetdl = require('./lib/tweetdl')
+    const wiki = require('./lib/wiki')
+    const ytdl = require('./lib/ytdl')
+    const bucin = require('./lib/bucin')
+    const cersex = require('./lib/cersex')
+    const cerpen = require('./lib/cerpen')
+    const puisi1 = require('./lib/puisi1')
+    const puisi2 = require('./lib/puisi2')
+    const resep = require('./lib/resep')
+    const namaninja = require('./lib/namaninja')
+    const bitly = require('./lib/bitly')
+    const nekonime = require('./lib/nekonime')
+    const cektanggal = require('./lib/cektanggal')
+    const chord = require('./lib/chord')
+    const zodiak = require('./lib/zodiak')
+    const fb = require('./lib/fb')
+    const simi = require('./lib/simi')
+    const wikien = require('./lib/wikien')
+    const spamsms = require('./lib/spamsms')
+    const spamcall = require('./lib/spamcall')
+    const spamgmail = require('./lib/spamgmail')
+    const covidcountry = require('./lib/covidcountry')
+    const infoanime = require('./lib/infoanime')
+    const gay = require('./lib/gay')
+    const ytmp3 = require('./lib/ytmp3')
+    const ssweb = require('./lib/ssweb')
+    const infogempa = require('./lib/infogempa')
+    const indohot = require('./lib/indohot')
+    const loli = require('./lib/loli')
+    const ttp = require('./lib/ttp')
+    const map = require('./lib/map')
+    const waifu = require('./lib/waifu')
 const { animPict, cewePict, cowoPict } = require('./lib/pict')
 
 const { exec } = require("child_process")
