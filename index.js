@@ -44,7 +44,6 @@ const
    waChatKey,
 } = require("@adiwajshing/baileys")
 
-const lib = require('./lib') 
     const help = require('./lib/help')
     const menu1 = require('./lib/menu1')
     const menu2 = require('./lib/menu2')
